@@ -15,7 +15,7 @@ def get_time():
 # Start a socket listening for connections on 0.0.0.0:8000 (0.0.0.0 means
 # all interfaces)
 server_socket = socket.socket()
-server_socket.bind(('http://220.82.24.178', 30000))
+server_socket.bind(('0.0.0.0', 8080))
 server_socket.listen(0)
 #test
 # Accept a single connection and make a file-like object out of it
