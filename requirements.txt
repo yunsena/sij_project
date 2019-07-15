@@ -1,5 +1,5 @@
 numpy
 Pillow
 image
-systemd
+python-systemd
 django<2
