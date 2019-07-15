@@ -2,3 +2,4 @@ numpy
 Pillow
 image
 systemd
+django<2
